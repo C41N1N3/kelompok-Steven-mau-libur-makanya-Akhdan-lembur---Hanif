@@ -1,6 +1,6 @@
 # kelompok-Steven-mau-libur-makanya-Akhdan-lembur---Hanif
 
-## Anggota Kelompok
+## Anggota Kelompok IMK A1
 | Nama           | NRP        | Tim     |
 | ---            | ---        | ----------|
 | Joaquin Fairuz Nawfal Ismono | 5025241106 | A |
