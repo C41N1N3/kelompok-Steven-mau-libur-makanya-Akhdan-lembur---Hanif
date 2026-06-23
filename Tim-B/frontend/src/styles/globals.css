@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-space-grotesk: "Space Grotesk", sans-serif;
+  /* Main Colors */
+  --color-primary: #4CD7F6;      /* Cyan - Main brand identity */
+
+  /* Miscellaneous */
+  --color-background: #051424;
+  --color-surface: #122131;
+  --color-secondary: #273647;
+
+  /* Typography */
+  --color-foreground: #D4E4FA;  /* Bright white-blue */
+  --color-dimmed: #94A3B8;      /* Muted gray-blue for subtext */
+  --color-semitone: #BCC9CD;    /* Light gray-blue for semitones */
+  --color-muted: #64748B;
+
+  /* Semantics */
+  --color-error: #FF0004;        /* Red */
+  --color-warning: #F59E0B;      /* Amber */
+}
+
+@layer base {
+    html {
+        @apply bg-background text-foreground font-space-grotesk;
+    }
+}
